@@ -30,20 +30,20 @@ const SucessStories = () => (
               
               </div>
             </div>
-            {/* <div className="profile">
+            <div className="profile">
               <div className="container">
                 <div className="row">
                   <div className="col-12">
-                    <img className="img-responsive" src={ImgProfile} alt="" /> 
+                    {/* <img className="img-responsive" src={ImgProfile} alt="" />  */}
                     <div className="title text-center">
-                      <h1>I am Elen Ferreira</h1>
-                      <h5 className="text a">I'm a Web Designer.</h5>
-                      <h5 className="text b">I'm a Web Developer.</h5>
+                      <h1>Aguardem</h1>
+                      <h1 className="text a">Em breve</h1>
+                      <h1 className="text b">Em breve</h1>
                     </div>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
               <span className="sr-only">Previous</span>

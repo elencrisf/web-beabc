@@ -4,7 +4,7 @@ import Tab from "react-bootstrap/Tab"
 import CardItems from "./CardItems/CardItems"
 import Row1 from "./Row1/Row1"
 import Row2 from "./Row2/Row2"
-import { StyledButton } from "../../Elements/Elements"
+// import { StyledButton } from "../../Elements/Elements"
 import config from "../../../../website/howItWorks"
 
 import "./tabContainer.scss"
@@ -26,32 +26,34 @@ export const TabContainer = () => {
           <Tab
             eventKey="enterpreneurs"
             title="Engenharia"
-            className={`bg-custom-lightOrange`}
+            className={`bg-custom-lightGreen`}
           >
             <div className="how-tabs__card-box wrap">
               <div className="how-tabs__card-box__discription py-5 inner-wrap">
                 <h2 className="text-custom-text text-center font-weight-bold">
-                  {config.enterpreneurTabTitle}
+                  {config.engineerTabTitle}
                 </h2>
                 <p className="how-tabs__card-box__discription__text pt-3 ">
-                  {config.enterpreneurTabDescription}
+                  {config.engineerTabDescription}
                 </p>
               </div>
-              <CardItems array={config.enterpreneurCardData} />
+              <CardItems array={config.engineerCardData} />
             </div>
             <div className="bg-white mb-5 how-tabs__row-container">
               <div className="wrap">
-                <h2 className="text-custom-text text-center font-weight-bold py-5">
-                  {config.enterpreneurSubtitle}
+                <h2 className="text-custom-text text-center font-weight-bold pt-5">
+                  {config.engineerSubtitle}
                 </h2>
-                <Row1 object={config.enterpreneurRow1Data} />
-                <Row2 object={config.enterpreneurRow2Data} />
-                <div className="text-center how-tabs__footer">
+                <p className="how-tabs__card-box__discription__text pb-5"><a href={config.engineerLink}>{config.engineerLink}
+                  </a></p>
+                <Row1 object={config.engineerRow1Data} />
+                {/* <Row2 object={config.enterpreneurRow2Data} /> */}
+                {/* <div className="text-center how-tabs__footer">
                   <span className="text-custom-text text-center font-weight-bold mr-5 how-tabs__footer__button-text">
                     {config.enterpreneurButtonText}
                   </span>
-                  <StyledButton>Associa-se</StyledButton>
-                </div>
+                  <StyledButton>Associe-se</StyledButton>
+                </div> */}
               </div>
             </div>
           </Tab>
@@ -59,32 +61,35 @@ export const TabContainer = () => {
           <Tab
             eventKey="investors"
             title="Arquitetura"
-            className="bg-custom-lightGreen"
+            className="bg-custom-lightYellow"
           >
             <div className="how-tabs__card-box wrap">
               <div className="how-tabs__card-box__discription py-5 inner-wrap">
                 <h2 className="text-custom-text text-center font-weight-bold">
-                  {config.inverstorTabTitle}
+                  {config.architectTabTitle}
                 </h2>
                 <p className="how-tabs__card-box__discription__text pt-3 ">
-                  {config.inverstorTabDescription}
+                  {config.architectTabDescription}
                 </p>
               </div>
-              <CardItems array={config.investorCardData} green={true} />
+              <CardItems array={config.architectCardData} green={true} />
             </div>
             <div className="bg-white mb-5">
               <div className="wrap">
-                <h2 className="text-custom-text text-center font-weight-bold py-5">
-                  {config.investorSubtitle}
+                <h2 className="text-custom-text text-center font-weight-bold pt-5">
+                  {config.architectSubtitle}
                 </h2>
-                <Row1 object={config.investorRow1Data} />
-                <Row2 object={config.investorRow2Data} />
-                <div className="text-center how-tabs__footer inner-wrap">
+                <p className="how-tabs__card-box__discription__text pb-5"><a href={config.architectLink}>{config.architectLink}
+                  </a></p>
+                <Row1 object={config.architectRow1Data} />
+                <Row2 object={config.architectRow2Data} />
+                {/* <Row2 object={config.investorRow2Data} /> */}
+                {/* <div className="text-center how-tabs__footer inner-wrap">
                   <span className="text-custom-text text-center font-weight-bold mr-5 how-tabs__footer__button-text">
-                    {config.investorButtonText}
+                    {config.architectButtonText}
                   </span>
                   <StyledButton>Associe-se</StyledButton>
-                </div>
+                </div> */}
               </div>
             </div>
           </Tab>

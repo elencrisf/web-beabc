@@ -11,18 +11,14 @@
   margin: 0.1rem 0;
   box-shadow: 0 0.6rem 0.1rem -0.4rem rgba(0, 0, 0, 0.075);
 
-  &__logo {
-    &__pic {
-      width: 10rem;
-    }
-    &__name {
-      width: 40rem;
-    }
-  }
+  // &__logo {
+  //     width: 10rem;
+  //     height: 100%;
+  // }
 
-  &__title {
-    font-size: 5rem;
-    text-align: center;
+   &__title {
+     font-size: 5rem;
+     text-align: center;
   }
   &__nav-link {
     font-size: 1.5rem;

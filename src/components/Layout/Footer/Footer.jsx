@@ -12,7 +12,7 @@ const Footer = () => {
 
   const { logo } = useStaticQuery(graphql`
   query {
-    logo: file(relativePath: { eq: "beabc_logo.png" }) {
+    logo: file(relativePath: { eq: "logo_beabcFinal.png" }) {
       childImageSharp {
         fixed(width: 70, height: 70) {
           ...GatsbyImageSharpFixed
@@ -23,7 +23,8 @@ const Footer = () => {
 `)
   
   return (
-    <footer className="footer bg-custom-lightGray py-5">
+    <footer className="footer bg-custom-lightYellow py-5">
+          {/* <footer className="footer bg-custom-lightBlue py-5"> */}
       <Container>
         <Row>
           <Col
@@ -31,11 +32,11 @@ const Footer = () => {
             md={{ span: 3, offset: 2 }}
             xs={{ span: 6 }}
             className="align-self-center"
-          >
+          ><Link to="/">
             <Img
             fixed={logo.childImageSharp.fixed}
             // filename={"logoB.png"} 
-            />
+            /></Link>
           </Col>
 
           <Col md={{ span: 6, offset: 1 }} xs={{ span: 6 }}>

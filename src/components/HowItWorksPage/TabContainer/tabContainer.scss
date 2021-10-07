@@ -21,19 +21,23 @@
     border-bottom-color: #dee2e6;
   }
   .nav-tabs #controlled-tab-enterpreneurs.nav-link.active {
-    border-bottom-color: $lightOrange;
+    // border-bottom-color: $lightOrange;
+    border-bottom-color: $yellow;
   }
 
   .nav-tabs #controlled-tab-investors.active {
-    border-bottom-color: $lightGreen;
+    // border-bottom-color: $lightOrange;
+        border-bottom-color: $green;
   }
 
   .nav-tabs .nav-link.active {
-    border-bottom: 1px solid #dee2e6;
+    // border-bottom: 1px solid #dee2e6;
+    border-bottom: 3px solid $green;
   }
 
   #controlled-tab-enterpreneurs {
-    background: $lightOrange;
+    // background: $lightOrange;
+    background: white;
     font-weight: bold;
     color: $text;
     width: 20%;
@@ -43,8 +47,9 @@
     border-left: 1px solid #dee2e6;
   }
   #controlled-tab-investors {
+    background: white;
     // background-color: $lightGreen;
-        background-color: $lightGray;
+    // background-color: $lightGray;
     font-weight: bold;
     color: $text;
     width: 20%;

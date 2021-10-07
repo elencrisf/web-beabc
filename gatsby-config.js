@@ -23,8 +23,8 @@ module.exports = {
   //   )
   // },
   siteMetadata: {
-    title: `Brasileiros Engenheiros e Arquitetos em BC`,
-    description: `Organização de Brasileiros Engenheiros e Arquitetos em British Columbia - Canadá`,
+    title: `BEABC - The Society of Brazilian Engineers and Architects in British Columbia`,
+    description: `Organização de Engenheiros e Arquitetos Brasileiros em British Columbia - Canadá`,
     author: `Grupo de Trabalho BEABC`,
     copyright: `© 2020 ELEN FERREIRA | All Rights Reserved`,
     siteUrl: `https://beabc.ca/`,
@@ -60,6 +60,13 @@ module.exports = {
       //     },
       //   ],
       // },
+    },
+    {
+      resolve: "gatsby-source-formspree",
+      options: {
+        form: "YOUR_FORM_ID",
+        key: "YOUR_API_KEY",
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -111,7 +118,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/beabc_logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo_beabcFinal.png`, // This path is relative to the root of the site.
       },
     },
 

@@ -11,8 +11,8 @@ export const StyledButton = ({ children, outline, type }) => {
     <Button
       className={`font-weight-bold btn-lg ${
         outline === undefined || outline === false
-          ? "btn-custom-orange  text-white"
-          : "btn-outline-custom-orange  bg-white text-custom-orange"
+          ? "btn-custom-yellow  text-white"
+          : "btn-outline-custom-yellow  bg-white text-custom-yellow"
       } `}
       style={myButtonStyle}
       type={type ? "submit" : "button"}
@@ -36,8 +36,8 @@ export const StyledSubmitButton = ({
     <Button
       className={`font-weight-bold btn-lg ${
         outline === undefined || outline === false
-          ? "btn-custom-orange  text-white"
-          : "btn-outline-custom-orange  bg-white text-custom-orange"
+          ? "btn-custom-yellow  text-white"
+          : "btn-outline-custom-yellow  bg-white text-custom-yellow"
       } `}
       style={myButtonStyle}
       disabled={isLoading}

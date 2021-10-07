@@ -13,9 +13,9 @@ const Header = ({ path }) => {
 
   const { logo } = useStaticQuery(graphql`
   query {
-    logo: file(relativePath: { eq: "beabc_logo.png" }) {
+    logo: file(relativePath: { eq: "logo_beabcC.png" }) {
       childImageSharp {
-        fixed(width: 90, height: 90) {
+        fixed(width: 500, height: 108) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -26,24 +26,15 @@ const Header = ({ path }) => {
   return (
     <header className="header">
       {/* <div className="wrap"> */}
-        <Navbar collapseOnSelect expand="lg" className="py-3">
+      {/* <Navbar navbar-expand-lg fixed-top navbar-dark> */}
+        <Navbar collapseOnSelect expand="lg" className="py-1">
           <Navbar.Brand as={Link} to="/">
-            <div className="header__logo">
-              <ul>
-                <li>              
-                  <div className="header__logo__pic">
-                    <Img 
-                    // filename={"beabc_logo.png"}
+            <div className="header__logo">           
+                    <Img
+                    filename={"logo_beabcC.png"}
                     fixed={logo.childImageSharp.fixed}
                     alt="logo" />
-                  </div>
-                </li>
-                <li>
-                  <div className="header__logo__name">
-                    <h2>Brazilian Engineers and Architects in BC</h2>
-                  </div>
-                </li>
-              </ul>
+
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -91,7 +82,7 @@ const Header = ({ path }) => {
               >
                 Contato
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/contactUs"
                 eventKey={2}
@@ -100,7 +91,7 @@ const Header = ({ path }) => {
                 }`}
               >
                 Associe-se
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>

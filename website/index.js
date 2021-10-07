@@ -6,7 +6,7 @@ module.exports = {
 
   howItWorks: [
     {
-      // title: "Investore",
+      // title: "Instagram",
       icon: 
       faInstagram
       // <i className="fab fa-instagram"></i>,
@@ -14,7 +14,7 @@ module.exports = {
       //   "Lopsum sentmels toahrla esket eosthl.",
     },
     {
-      // title: "How It Works",
+      // title: "Linkedin",
       icon: 
       faLinkedin
       // <i className="fab fa-linkedin-in"></i>,
@@ -22,7 +22,7 @@ module.exports = {
       //   "Lopsum sentmels toahrla esket eosthl.",
     },
     {
-      // title: "Entrepreneurs",
+      // title: "Twitter",
       icon:
       faTwitter
       // <i className="fab fa-twitter-square"></i>,

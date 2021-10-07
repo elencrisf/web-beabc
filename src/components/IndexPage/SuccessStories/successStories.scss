@@ -15,15 +15,16 @@
 
 
 .home__successStories__youtube {
-  margin: 10em auto;
+  margin: 5em auto;
   width: 60%;
   // background-position: top 15% left 50%;
 }
-// .home__successStories {
-//   color: $text;
-//   font-family: $display;
-//   height: 25em;
-
+.home__successStories {
+  color: $text;
+  font-family: $display;
+  height: 25em;
+  margin: 10em;
+}
   // &__description {
   //   margin-top: 10em;
   //   width: 47%;

@@ -83,26 +83,18 @@
 //       <div className="wrap mx-auto my-5 ">
 //         <p className="h1 font-weight-bolder">About Us</p>
 //         <p className="inner-wrap">
-//           This is a platform that connects investors and entrepreneurs who drive
-//           social change. Our web application incorporates a framework, called
-//           Impactraction, which measures the social impact of your projects and
-//           helps you connect with potential investors.
+//           We want to help you.
 //         </p>
 //         <p className="inner-wrap mt-3">
-//           Impactraction acts as a mentor who unlocks someone’s entrepreneurial
-//           and impact potential; a facilitator who finds common objectives among
-//           investors and entrepreneurs; an innovator who wants to create an
-//           impact in the community; and a communicator who conveys ideas clearly
-//           and simply.
+//           We help people.
 //         </p>
 //         <br />
 //       </div>
 //       <div className="wrap mx-auto my-5">
 //         <p className="h1 font-weight-bolder">What We Do</p>
 //         <p className="inner-wrap">
-//           We help people who are making societal changes through innovation.
-//           <br /> We give enterprises the opportunity to grow their concepts into
-//           drivers of change that benefits society and the environment.
+//           We help people.
+//           <br /> We give support, we give support.
 //         </p>
 //         <div>
 //           <div className="container pt-3 aboutUs__icons">
@@ -111,31 +103,31 @@
 //                 <div className="aboutUs__icon">
 //                   <Image filename={"aboutUs_icon1.png"} alt="icon1" />
 //                 </div>
-//                 <p className="h4">Embrace and drive change</p>
+//                 <p className="h4">Embrace</p>
 //               </div>
 //               <div className="col-lg-2 col-md-4 col-sm-6">
 //                 <div className="aboutUs__icon">
 //                   <Image filename={"aboutUs_icon2.png"} alt="icon2" />
 //                 </div>
-//                 <p className="h4">Pursue growth and learning</p>
+//                 <p className="h4">Learning</p>
 //               </div>
 //               <div className="col-lg-2 col-md-4 col-sm-6">
 //                 <div className="aboutUs__icon">
 //                   <Image filename={"aboutUs_icon3.png"} alt="icon3" />
 //                 </div>
-//                 <p className="h4">Passionate and determined</p>
+//                 <p className="h4">Determined</p>
 //               </div>
 //               <div className="col-lg-2 col-md-4 col-sm-6">
 //                 <div className="aboutUs__icon">
 //                   <Image filename={"aboutUs_icon4.png"} alt="icon4" />
 //                 </div>
-//                 <p className="h4">Build relationships</p>
+//                 <p className="h4">Build</p>
 //               </div>
 //               <div className="col-lg-2 col-md-4 col-sm-6">
 //                 <div className="aboutUs__icon">
 //                   <Image filename={"aboutUs_icon5.png"} alt="icon5" />
 //                 </div>
-//                 <p className="h4">Keep an open mind</p>
+//                 <p className="h4">Keep</p>
 //               </div>
 //             </div>
 //           </div>
@@ -145,36 +137,35 @@
 //         <Banner2 className="aboutUs__banner__bgc2">
 //           <div className="wrap mx-auto">
 //             <p className="h1 font-weight-bolder">
-//               We believe passionately in the power of ideas that create an
-//               impact in the world
+//               We believe, we believe.
 //             </p>
 //             <div className="row wrap justify-content-around mt-5">
 //               <div className="col-md-3 col-sm-6 aboutUs__banner__item">
-//                 <p className="display-4 font-weight-bolder">Impact Social
+//                 <p className="display-4 font-weight-bolder">Entrepreneurs
 //                   {/* {impactStats.socialEntrepreneursMobilized} */}
 //                 </p>
-//                 <p className="h3">social entrepreneurs mobilized</p>
+//                 <p className="h3">Entrepreneurs</p>
 //               </div>
 //               <div className="col-md-3 col-sm-6 aboutUs__banner__item">
 //                 <p className="display-4 font-weight-bolder">
-//                   Impact Business funded
+//                   Business
 //                   {/* {impactStats.businessesFunded} */}
 //                 </p>
-//                 <p className="h3">businesses funded</p>
+//                 <p className="h3">Business</p>
 //               </div>
 //               <div className="col-md-3 col-sm-6 aboutUs__banner__item">
 //                 <p className="display-4 font-weight-bolder">
-//                   Impact Investors
+//                   Investors
 //                   {/* {impactStats.impactInvestors} */}
 //                 </p>
-//                 <p className="h3">impact investors</p>
+//                 <p className="h3">Inverstors</p>
 //               </div>
 //               <div className="col-md-3 col-sm-6 aboutUs__banner__item">
 //                 <p className="display-4 font-weight-bolder">
 //                 $ million
-//                   {/* ${impactStats.totalFundsCollected} million */}
+//                   {/* ${impactStats.totalFundsCollected} dollars */}
 //                 </p>
-//                 <p className="h3">total funds collected</p>
+//                 <p className="h3">Total funds</p>
 //               </div>
 //             </div>
 //           </div>
@@ -184,9 +175,7 @@
 //       <div className="wrap mx-auto mt-5 aboutUs__members">
 //         <p className="h1 font-weight-bolder">Our Team</p>
 //         <p className="inner-wrap">
-//           We bring a wealth of experience from social enterprise, start-ups,
-//           organizations, and non-profit sectors. Meet the team who set our
-//           global direction, goals and strategies.
+//           What we do, what we do, what we do.
 //         </p>
 //         <div className="container mt-5 inner-wrap">
 //           <div className="row justify-content-around">

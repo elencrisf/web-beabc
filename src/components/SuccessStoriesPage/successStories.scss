@@ -1,4 +1,4 @@
-// @import "../../styles/valiable.scss";
+@import "../../styles/valiable.scss";
 
 // Styling regulation
 // 1. Please follow [bootstrap document] (https://getbootstrap.com/) [react-bootstrap] (https://react-bootstrap.github.io/).
@@ -11,138 +11,140 @@
 // 6. Please use bootstrap styles for spacing and font-size as possible as you can, because keeping consistent.
 
 
-// html {
-//     position: relative;
-//     min-height: 100%;
-// }
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 
 
 /////////////////////
 
-// .title {
-//   text-align: center;
-//   margin-top: -220px;
-//   margin-left: 30px;
-//   padding: 10px;
-//   text-shadow: 2px 2px #000;
-//   color: #FFF;
-//   & h5 {
-//       font-size: 2rem;
-//   }
-//   & h1 {
-//       font-size: 3rem;
-//   }
-// }
+.title {
+  text-align: center;
+  margin-top: -220px;
+  margin-left: 30px;
+  padding: 10px;
+  font-family: $display;
+  text-shadow: 2px 2px #FFF;
+  color: #13094e;
+  & h5 {
+      font-size: 2rem;
+  }
+  & h1 {
+      font-size: 6rem;
+  }
+}
 
-// .text {
-//   // font-size: 3rem;
-//   // font-weight: bold;
-//   position: absolute;
-//   margin-left: 35%;
-//   opacity: 0;
-//   animation: fader 6s infinite;
-// }
+.text {
+  // font-size: 3rem;
+  // font-weight: bold;
+  position: absolute;
+  margin-left: 40%;
+  opacity: 0;
+  animation: fader 6s infinite;
+  font-family: $display;
+}
 /* cada texto tem um delay de 5 + o valor do delay anterior, meno o primeiro */
-// .a {
-//   animation-delay: 0s;    
-// }
-// .b {
-//   animation-delay: 3s;
-// }
+.a {
+  animation-delay: 0s;    
+}
+.b {
+  animation-delay: 3s;
+}
 
 /* Animação acontece apenas entre 0 e 20%, pois são 5 elementos */
-// @keyframes fader {
-//   10% {
-//       opacity: 1;
-//   }
-//   50% {
-//       opacity: 0;
-//   }
-// }
+@keyframes fader {
+  10% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
 
-// .img-responsive {
-//   width: 40%;
-//   background-color: white;
-//   display: block;
-//   margin-top: -650px;
-//   border-radius: 50%;
-//   opacity: 1;
-// }
+.img-responsive {
+  width: 40%;
+  background-color: white;
+  display: block;
+  margin-top: -650px;
+  border-radius: 50%;
+  opacity: 1;
+}
 
-// @media(max-width:768px) {
+@media(max-width:768px) {
 
-//   .title {
-//       text-align: center;
-//       margin-top: -160px;
-//       margin-left: 25%;
-//       padding: 10px;
-//       text-shadow: 2px 2px #000;
-//       color: #FFF;
-//       & h5 {
-//           font-size: 2rem;
-//       }
-//       & h1 {
-//           font-size: 3rem;
-//       }
-//   }
+  .title {
+      text-align: center;
+      margin-top: -160px;
+      margin-left: 25%;
+      padding: 10px;
+      text-shadow: 2px 2px #000;
+      color: #FFF;
+      & h5 {
+          font-size: 2rem;
+      }
+      & h1 {
+          font-size: 3rem;
+      }
+  }
 
-//   .text {
-//       margin-left: 12%;
-//   }
-// }
+  .text {
+      margin-left: 12%;
+  }
+}
 
-  // @media(max-width:635px) {
-  //     .profile  {
-  //         margin-top: -650px;
-  //         padding-top: 90px;
-  //         padding-bottom: 100px;
-  //         margin-bottom: 650px;
-  //     }
-  //     .img-responsive {
-  //         margin-top: -100px;
-  //         margin-left: 50px;
-  //         width: 80%;
-  //     }
+  @media(max-width:635px) {
+      .profile  {
+          margin-top: -650px;
+          padding-top: 90px;
+          padding-bottom: 100px;
+          margin-bottom: 650px;
+      }
+      .img-responsive {
+          margin-top: -100px;
+          margin-left: 50px;
+          width: 80%;
+      }
   
-  //     .title {
-  //         margin-top: 0;
-  //     }
-  //     .title h1 {
-  //         margin-left: -80px;
-  //     }
+      .title {
+          margin-top: 0;
+      }
+      .title h1 {
+          margin-left: -80px;
+      }
 
-  //     .text {
-  //         margin-left: -10px;
-  //     }
-  // }
+      .text {
+          margin-left: -10px;
+      }
+  }
 
-  // @media(max-width:400px) {
-  //     .text {
-  //         margin-left: -50px;
-  //     }
-  // }
+  @media(max-width:400px) {
+      .text {
+          margin-left: -50px;
+      }
+  }
 
-  // @media(max-width:375px) {
-  //     .text {
-  //         margin-left: -50px;
-  //     }
-  // }
+  @media(max-width:375px) {
+      .text {
+          margin-left: -50px;
+      }
+  }
 
-  // @media(max-width:320px) {
-  //     .text {
-  //         margin-left: -50px;
-  //     }
-  // }
+  @media(max-width:320px) {
+      .text {
+          margin-left: -50px;
+      }
+  }
 
 
-  // header .intro-text .name {
-  //     font-size: 4.0em;
-  // }
+  header .intro-text .name {
+      font-size: 4.0em;
+  }
 
-  // header .intro-text .skills {
-  //     font-size: 2.5em;
-  // }
+  header .intro-text .skills {
+      font-size: 2.5em;
+  }
 
 
 // .carousel-fade .carousel-inner .item {
@@ -196,14 +198,16 @@
   background-size: cover;
 }
 .carousel-item:nth-child(2) {
-  background: url(https://ununsplash.imgix.net/photo-1417021423914-070979c8eb34?q=75&fm=jpg&s=55746bd56e02a131b1e48c12196ea866) no-repeat center center fixed;
+  background: url("../../images/VancouverCity.jpg") no-repeat center center fixed;
+    //ununsplash.imgix.net/photo-1417021423914-070979c8eb34?q=75&fm=jpg&s=55746bd56e02a131b1e48c12196ea866) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .carousel-item:nth-child(3) {
-  background: url(https://ununsplash.imgix.net/reserve/oY3ayprWQlewtG7N4OXl_DSC_5225-2.jpg?q=75&fm=jpg&s=85ab821f3fa535036a68155aab571bad) no-repeat center center fixed;    
+  background: url(//ununsplash.imgix.net/photo-1417021423914-070979c8eb34?q=75&fm=jpg&s=55746bd56e02a131b1e48c12196ea866) no-repeat center center fixed;
+  // background: url(https://ununsplash.imgix.net/reserve/oY3ayprWQlewtG7N4OXl_DSC_5225-2.jpg?q=75&fm=jpg&s=85ab821f3fa535036a68155aab571bad) no-repeat center center fixed;    
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -228,7 +232,7 @@
 // .profile {
 //     text-align: center;
 //     color: #fff;
-//     background-image: url("../../../images/circuito.png");
+//     // background-image: url("../../../images/circuito.png");
 //     background-color: rgb(69, 94, 94);
 //     background-repeat: repeat;
 //     background-position: center;

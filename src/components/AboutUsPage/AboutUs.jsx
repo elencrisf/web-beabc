@@ -88,7 +88,7 @@ import Banner2 from "./aboutUs_banner2"
                   <p className="h1 font-weight-bolder">Quem somos</p>
                   <p className="inner-wrap">
                   Fundada em 2021, somos uma organização sem fins lucrativos de brasileiros Engenheiros e Arquitetos, registrados e não registrados
-                  com EGBC (Engineers & Geoscientists British Columbia) and AIBC (Architectural Institute of British Columbia) que residem em British
+                  com EGBC (Engineers & Geoscientists British Columbia) e AIBC (Architectural Institute of British Columbia) que residem em British
                   Columbia, Canadá.
                   </p>
                   <br />
@@ -114,31 +114,31 @@ import Banner2 from "./aboutUs_banner2"
                      <div className="aboutUs__icon">
                        <Img filename={"aboutUs_icon1.png"} alt="icon1" />
                      </div>
-                     <p className="h4">Embrace and drive change</p>
+                     <p className="h4">Embrace</p>
                     </div>
                    <div className="col-lg-2 col-md-4 col-sm-6">
                     <div className="aboutUs__icon">
                       <Img filename={"aboutUs_icon2.png"} alt="icon2" />
                     </div>
-                    <p className="h4">Pursue growth and learning</p>
+                    <p className="h4">Learning</p>
                    </div>
                    <div className="col-lg-2 col-md-4 col-sm-6">
                      <div className="aboutUs__icon">
                        <Img filename={"aboutUs_icon3.png"} alt="icon3" />
                      </div>
-                     <p className="h4">Passionate and determined</p>
+                     <p className="h4">Learning</p>
                    </div>
                    <div className="col-lg-2 col-md-4 col-sm-6">
                      <div className="aboutUs__icon">
                        <Img filename={"aboutUs_icon4.png"} alt="icon4" />
                      </div>
-                     <p className="h4">Build relationships</p>
+                     <p className="h4">Relationships</p>
                    </div>
                    <div className="col-lg-2 col-md-4 col-sm-6">
                      <div className="aboutUs__icon">
                        <Img filename={"aboutUs_icon5.png"} alt="icon5" />
                      </div>
-                     <p className="h4">Keep an open mind</p>
+                     <p className="h4">Together</p>
                    </div>
                  </div>
                 </div>
@@ -153,39 +153,39 @@ import Banner2 from "./aboutUs_banner2"
                 <br />
                 <div className="aboutUs__banner__bgc2__bgc2text">
                 <p className="h1 font-weight">
-                ● União: Não somos concorrentes, torcemos pelo seu sucesso.
+                &#9679; União: Não somos concorrentes, torcemos pelo seu sucesso.
                 </p>
                 <p className="h1 font-weight">
-                ● Conexão: Ninguém está sozinho - Queremos ajudá-lo a manter o otimismo autêntico.
+                &#9679; Conexão: Ninguém está sozinho - Queremos ajudá-lo a manter o otimismo autêntico.
                 </p>
                 <p className="h1 font-weight">
-                ● Valorização: Fazemos a diferença com nosso profissionalismo e alta qualidade.
+                &#9679; Valorização: Fazemos a diferença com nosso profissionalismo e alta qualidade.
                 </p>
                 <p className="h1 font-weight">
-                ● Entusiasmo: Paixão por fazer o melhor.
+                &#9679; Entusiasmo: Paixão por fazer o melhor.
                 </p>
                 </div>
                 {/* <div className="row wrap justify-content-around mt-5">
             <div className="col-md-3 col-sm-6 aboutUs__banner__item">
-              <p className="display-4 font-weight-bolder">Impact Social
+              <p className="display-4 font-weight-bolder">Social
               </p>
-              <p className="h3">social entrepreneurs mobilized</p>
+              <p className="h3">Social</p>
             </div>
             <div className="col-md-3 col-sm-6 aboutUs__banner__item">
               <p className="display-4 font-weight-bolder">
-              Impact Business funded
+              Business
               </p>
-              <p className="h3">businesses funded</p>
+              <p className="h3">Business</p>
             </div>
             <div className="col-md-3 col-sm-6 aboutUs__banner__item">
               <p className="display-4 font-weight-bolder">
-              Impact Investors
+              Founders
               </p>
-              <p className="h3">impact investors</p>
+              <p className="h3">Founders</p>
             </div>
             <div className="col-md-3 col-sm-6 aboutUs__banner__item">
               <p className="display-4 font-weight-bolder">
-              $ million
+              $ 
               </p>
               <p className="h3">total funds collected</p>
             </div>
@@ -206,39 +206,39 @@ import Banner2 from "./aboutUs_banner2"
                     {/* <Img Tag="section" className={className} fluid={imageData}>
                     {children}
                     </Img> */}
-                    <Image filename={"01.jpg"} alt="lillen" />
+                    <Image filename={"01.png"} alt="lillen" />
                     <div className="aboutUs__label">
                      {/* <span className="aboutUs__label__name">Name</span> */}
-                     <span className="aboutUs__label__name">Lillen</span> |{" "}
+                     <span className="aboutUs__label__name">Lillen Vater</span> |{" "}
                      {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
                      {/* {position} */}
-                     Engenheira Ambiental
+                     B. Eng. Ambiental
                    </div>
                   </div>
                  <div className="col-md-3 col-sm-6">
                     {/* <Img Tag="section" className={className} fluid={imageData}>
                     {children}
                     </Img> */}
-                    <Image filename={"02.jpg"} alt="rubio" />
+                    <Image filename={"02.png"} alt="rubio" />
                     <div className="aboutUs__label">
                      {/* <span className="aboutUs__label__name">Name</span> */}
                      <span className="aboutUs__label__name">Luis Rubio</span> |{" "}
                      {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
                      {/* {position} */}
-                     Engenheiro Mecânico
+                     B. Eng. Mecânico
                    </div>
                   </div>
                  <div className="col-md-3 col-sm-6">
                     {/* <Img Tag="section" className={className} fluid={imageData}>
                     {children}
                     </Img> */}
-                    <Image filename={"03.JPG"} alt="thalita" />
+                    <Image filename={"03.jpg"} alt="thalita" />
                     <div className="aboutUs__label">
                      {/* <span className="aboutUs__label__name">Name</span> */}
                      <span className="aboutUs__label__name">Thalita Sympovsky</span> |{" "}
                      {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
                      {/* {position} */}
-                     Engenheira de Processo Sênior
+                     P. Eng. de Processo Sênior
                    </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -251,9 +251,61 @@ import Banner2 from "./aboutUs_banner2"
                      <span className="aboutUs__label__name">Fabiano Falbo</span> |{" "}
                      {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
                      {/* {position} */}
-                     Engenheiro Civil
+                     B. Eng. Civil
                    </div>
                   </div>
+                  <div className="col-md-3 col-sm-6">
+                    {/* <Img Tag="section" className={className} fluid={imageData}>
+                    {children}
+                    </Img> */}
+                    <Image filename={"05.jpg"} alt="katiussa" />
+                    <div className="aboutUs__label">
+                     {/* <span className="aboutUs__label__name">Name</span> */}
+                     <span className="aboutUs__label__name">Katiussa Sulzbacher</span> |{" "}
+                     {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
+                     {/* {position} */}
+                     B. Eng. Civil
+                   </div>
+                  </div>
+                  <div className="col-md-3 col-sm-6">
+                    {/* <Img Tag="section" className={className} fluid={imageData}>
+                    {children}
+                    </Img> */}
+                    <Image filename={"06.png"} alt="helena" />
+                    <div className="aboutUs__label">
+                     {/* <span className="aboutUs__label__name">Name</span> */}
+                     <span className="aboutUs__label__name">Helena Araujo</span> |{" "}
+                     {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
+                     {/* {position} */}
+                     B. Arq.
+                   </div>
+                  </div>
+                  <div className="col-md-3 col-sm-6">
+                    {/* <Img Tag="section" className={className} fluid={imageData}>
+                    {children}
+                    </Img> */}
+                    <Image filename={"07.png"} alt="elen" />
+                    <div className="aboutUs__label">
+                     {/* <span className="aboutUs__label__name">Name</span> */}
+                     <span className="aboutUs__label__name">Elen Ferreira</span> |{" "}
+                     {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
+                     {/* {position} */}
+                      Eng. de Tráfego Tecnol. / Software Developer
+                   </div>
+                  </div>
+                  {/* <div className="col-md-3 col-sm-6"> */}
+                    {/* <Img Tag="section" className={className} fluid={imageData}>
+                    {children}
+                    </Img> */}
+                    {/* <Image filename={"08.jpg"} alt="alexandra" />
+                    <div className="aboutUs__label"> */}
+                     {/* <span className="aboutUs__label__name">Name</span> */}
+                     {/* <span className="aboutUs__label__name">Alexandra Rhod</span> |{" "} */}
+                     {/* <span className="aboutUs__label__name">{name}</span> |{" "} */}
+                     {/* {position} */}
+                     {/* Engenheira Civil
+                   </div>
+                  </div> */}
             </div>
           </div>
           </div>

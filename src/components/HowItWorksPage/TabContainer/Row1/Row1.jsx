@@ -9,22 +9,27 @@ export const Row1 = ({ object }) => {
     <div className="how-row1">
       <Container>
         <Row className="justify-content-md-center">
-          <Col lg={6} md={12}>
+          <Col lg={5} md={12}>
             <div className="how-row1__image">
               <Image filename={object.image} alt="collaborate" />
             </div>
           </Col>
           <Col sm="auto" />
           <Col
-            lg={4}
+            lg={5}
             md={12}
             className="text-left d-flex align-items-center how-row1__text-box"
-          >
+          >           
             <div>
               <h2 className="text-custom-text font-weight-bold ">
-                {object.title}
+                {object.title1}
               </h2>
-              <p className="pt-3 how-row1__description">{object.discription}</p>
+              <p className="pt-3 how-row1__description">{object.description1}</p>
+              <br/>      
+              <h2 className="text-custom-text font-weight-bold ">
+                {object.title2}
+              </h2>
+              <p className="pt-3 how-row1__description">{object.description2}</p>
             </div>
           </Col>
         </Row>

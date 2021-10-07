@@ -11,7 +11,7 @@ export const CardItems = ({ array, green }) => {
         </Card.Title>
         <Card.Img src={item.icon} className="w-50 p-3" />
         <Card.Text className="how-tabs__card-items__discription">
-          <span>{item.discription}</span>
+          <span>{item.description}</span>
         </Card.Text>
       </Card.Body>
       {/* <span

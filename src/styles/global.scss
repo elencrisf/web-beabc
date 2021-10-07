@@ -2,12 +2,21 @@
 /*                              CUSTOM BOOTSTRAP                              */
 /* -------------------------------------------------------------------------- */
 $theme-colors: (
-  "custom-lightGreen": #e3fae0,
+  // "custom-lightGreen": #3F795E,
+  "custom-lightGreen": rgba(0,143,57, 0.4),
+  "custom-lightYellow": #FFFFE0,
+  // "custom-lightBlue": #286ebedc,
+  "custom-lightBlue": #92B7FE,
+  "custom-lightRed": #FF7F7F,
   "custom-lightOrange": #fff6ea,
   "custom-lightGray": #f3f3f3,
   "custom-green": #65d258,
   "custom-orange": #fa7921,
+  "custom-yellow": #FBC100,
   "custom-text": #13094e,
+  // "custom-red": #E82042
+  "custom-red": #c4302b,
+  "custom-white": #FFFFFF
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
