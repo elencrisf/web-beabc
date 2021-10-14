@@ -61,13 +61,13 @@ module.exports = {
       //   ],
       // },
     },
-    {
-      resolve: "gatsby-source-formspree",
-      options: {
-        form: "YOUR_FORM_ID",
-        key: "YOUR_API_KEY",
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-formspree",
+    //   options: {
+    //     form: "YOUR_FORM_ID",
+    //     key: "YOUR_API_KEY",
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
